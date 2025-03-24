@@ -112,4 +112,4 @@ jobs:
         with:
           persist-credentials: false
       - name: Run docker compose
-        run: docker compose -f compose.yml up -d --build
+        run: docker --version ; docker compose -f compose.yml up -d --build
